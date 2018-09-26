@@ -1,0 +1,6 @@
+Notes Week1:
+Modified Gradle to work in environment
+Familiarized myself with various different fuctions of app
+- Activities are split enough to be tested individually
+- Label where every fuction is in the app
+- Refactoring needs to be done on some activities in order to test faster
