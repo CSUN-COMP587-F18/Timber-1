@@ -1,5 +1,4 @@
 ###Activities
-
 - The activities handle all the main screens the users will be seeing and how they will be switching between each scene
 
 - Main Activity will likely make up a bulk of the testing since it contains a lot of dependencies and sets up a lot of the variables that extend to other activities within the app such as setting up the Dark theme
@@ -23,7 +22,7 @@
 - The Playlist detail activity sets up the playlist scene, it needs to get all the proper information for the custom user made lists
 	- Must test new and updated playlist to make sure they always work
 		-  Check loaded files
-		
+
 - Search activity is made up of various retrieval methods that queue the most relevent results to what is in typed in the search bar
 	- A lot of testing could likely help improve this feature
 	
