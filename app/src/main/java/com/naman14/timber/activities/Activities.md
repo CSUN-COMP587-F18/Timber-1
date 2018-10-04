@@ -24,7 +24,7 @@
 	- Must test new and updated playlist to make sure they always work
 		-  Check loaded files
 		
-- Search activity is made up of various retreval methods that queue the most relevent results to what is in typed in the search bar
+- Search activity is made up of various retrieval methods that queue the most relevent results to what is in typed in the search bar
 	- A lot of testing could likely help improve this feature
 	
 - Settings seems to allow user to change various different aspects of the app
