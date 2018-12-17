@@ -23,13 +23,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withId;
 public class automatedMusicTest {
     @Rule
     public ActivityTestRule<MainActivity> mMainActivityRule=
-            new ActivityTestRule<MainActivity>(MainActivity.class) {
-                @Override
-                protected void beforeActivityLaunched() {
-                    super.beforeActivityLaunched();
-
-                }
-            };
+            new ActivityTestRule<MainActivity>(MainActivity.class);
 
     //Get a song in the list of files randomly
     @Test

@@ -24,13 +24,7 @@ public class MainActivityTest {
 
     @Rule
     public ActivityTestRule<MainActivity> mMainActivityRule=
-            new ActivityTestRule<MainActivity>(MainActivity.class) {
-                @Override
-                protected void beforeActivityLaunched() {
-                    super.beforeActivityLaunched();
-
-                }
-            };
+            new ActivityTestRule<MainActivity>(MainActivity.class);
 
 
     @Test
